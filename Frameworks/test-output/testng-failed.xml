@@ -6,10 +6,8 @@
       <class name="automation.tests.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="onlyUsernameSignIn"/>
+          <include name="ValidLogin"/>
           <include name="initDriver"/>
-          <include name="invalidSignIn"/>
-          <include name="DirectSignIn"/>
         </methods>
       </class> <!-- automation.tests.LoginTest -->
     </classes>

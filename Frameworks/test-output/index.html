@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\nikhi\AppData\Local\Temp\testng-eclipse--2013814209\testng-customsuite.xml</span>
+                    <span>C:\Users\nikhi\AppData\Local\Temp\testng-eclipse--1289012972\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="automation.tests.LoginTest" class="method navigator-link" hash-for-method="DirectSignIn">DirectSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.tests.LoginTest" class="method navigator-link" hash-for-method="ValidLogin">ValidLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,6 +148,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="ValidLogin">
+                  </a> <!-- ValidLogin -->
+                  <span class="method-name">ValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="invalidSignIn">
                   </a> <!-- invalidSignIn -->
                   <span class="method-name">invalidSignIn</span>
@@ -160,7 +172,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\nikhi\AppData\Local\Temp\testng-eclipse--2013814209\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\nikhi\AppData\Local\Temp\testng-eclipse--1289012972\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -209,24 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'DirectSignIn')
+data.setCell(0, 1, 'ValidLogin')
 data.setCell(0, 2, 'automation.tests.LoginTest')
-data.setCell(0, 3, 3164);
+data.setCell(0, 3, 8300);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'invalidSignIn')
+data.setCell(1, 1, 'onlyUsernameSignIn')
 data.setCell(1, 2, 'automation.tests.LoginTest')
-data.setCell(1, 3, 3158);
+data.setCell(1, 3, 3919);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'onlyUsernameSignIn')
+data.setCell(2, 1, 'DirectSignIn')
 data.setCell(2, 2, 'automation.tests.LoginTest')
-data.setCell(2, 3, 3065);
+data.setCell(2, 3, 3895);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invalidSignIn')
+data.setCell(3, 2, 'automation.tests.LoginTest')
+data.setCell(3, 3, 3364);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -259,35 +275,47 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DirectSignIn</span>
-                <span class="method-start">7286 ms</span>
+                <span class="method-start">5010 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10458 ms</span>
+                <span class="method-start">8925 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">11084 ms</span>
+                <span class="method-start">9470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidLogin</span>
+                <span class="method-start">11978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver</span>
+                <span class="method-start">20758 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidSignIn</span>
-                <span class="method-start">13456 ms</span>
+                <span class="method-start">23512 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16622 ms</span>
+                <span class="method-start">26882 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver</span>
-                <span class="method-start">17148 ms</span>
+                <span class="method-start">27431 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">onlyUsernameSignIn</span>
-                <span class="method-start">19782 ms</span>
+                <span class="method-start">30264 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22849 ms</span>
+                <span class="method-start">34188 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

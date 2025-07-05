@@ -46,6 +46,29 @@ public class LoginTest extends Configuration {
 		
 		Assert.assertTrue(lp.ErrorDisplayed());
 	}
+	
+	@Test
+	public void ValidLogin() throws InterruptedException {
+		
+		LoginPage lp = PageUtils.navigateToLoginPage(driver);
+		
+		lp.clickFypLink();
+		
+		Thread.sleep(2000);
+		
+		lp.clickRstLogin();
+		
+		String pass = lp.extractRealPassword();
+		
+		Thread.sleep(2000);
+		
+		lp.goToLogin();
+		
+		Thread.sleep(2000);
+		
+		lp.enterPassword(pass);
+		
+	}
 
 
 }
