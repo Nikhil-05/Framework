@@ -2,56 +2,56 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-05T17:13:03 IST" name="Default suite" finished-at="2025-07-05T17:13:38 IST" duration-ms="34721">
+  <suite started-at="2025-07-06T18:38:59 IST" name="Default suite" finished-at="2025-07-06T18:39:29 IST" duration-ms="29742">
     <groups>
     </groups>
-    <test started-at="2025-07-05T17:13:03 IST" name="Default test" finished-at="2025-07-05T17:13:38 IST" duration-ms="34721">
+    <test started-at="2025-07-06T18:38:59 IST" name="Default test" finished-at="2025-07-06T18:39:29 IST" duration-ms="29742">
       <class name="automation.tests.LoginTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:03 IST" name="initDriver" finished-at="2025-07-05T17:13:08 IST" duration-ms="5008" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:38:59 IST" name="initDriver" finished-at="2025-07-06T18:39:04 IST" duration-ms="4879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="DirectSignIn()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:08 IST" name="DirectSignIn" finished-at="2025-07-05T17:13:12 IST" duration-ms="3895" status="PASS">
+        <test-method signature="DirectSignIn()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:04 IST" name="DirectSignIn" finished-at="2025-07-06T18:39:08 IST" duration-ms="3570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DirectSignIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:12 IST" name="tearDown" finished-at="2025-07-05T17:13:13 IST" duration-ms="543" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:08 IST" name="tearDown" finished-at="2025-07-06T18:39:08 IST" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:13 IST" name="initDriver" finished-at="2025-07-05T17:13:15 IST" duration-ms="2507" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:08 IST" name="initDriver" finished-at="2025-07-06T18:39:11 IST" duration-ms="2708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="ValidLogin()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:15 IST" name="ValidLogin" finished-at="2025-07-05T17:13:24 IST" duration-ms="8300" status="PASS">
+        <test-method signature="ValidLogin()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:11 IST" name="ValidLogin" finished-at="2025-07-06T18:39:16 IST" duration-ms="5178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:24 IST" name="tearDown" finished-at="2025-07-05T17:13:24 IST" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:16 IST" name="tearDown" finished-at="2025-07-06T18:39:16 IST" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:24 IST" name="initDriver" finished-at="2025-07-05T17:13:27 IST" duration-ms="2754" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:16 IST" name="initDriver" finished-at="2025-07-06T18:39:19 IST" duration-ms="2455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="invalidSignIn()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:27 IST" name="invalidSignIn" finished-at="2025-07-05T17:13:30 IST" duration-ms="3364" status="PASS">
+        <test-method signature="invalidSignIn()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:19 IST" name="invalidSignIn" finished-at="2025-07-06T18:39:22 IST" duration-ms="3367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidSignIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:30 IST" name="tearDown" finished-at="2025-07-05T17:13:31 IST" duration-ms="547" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:22 IST" name="tearDown" finished-at="2025-07-06T18:39:23 IST" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:31 IST" name="initDriver" finished-at="2025-07-05T17:13:34 IST" duration-ms="2832" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:23 IST" name="initDriver" finished-at="2025-07-06T18:39:25 IST" duration-ms="2644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="onlyUsernameSignIn()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:34 IST" name="onlyUsernameSignIn" finished-at="2025-07-05T17:13:37 IST" duration-ms="3919" status="PASS">
+        <test-method signature="onlyUsernameSignIn()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:25 IST" name="onlyUsernameSignIn" finished-at="2025-07-06T18:39:28 IST" duration-ms="2825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onlyUsernameSignIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-05T17:13:37 IST" name="tearDown" finished-at="2025-07-05T17:13:38 IST" duration-ms="435" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.tests.LoginTest@1bb5a082]" started-at="2025-07-06T18:39:28 IST" name="tearDown" finished-at="2025-07-06T18:39:29 IST" duration-ms="512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
